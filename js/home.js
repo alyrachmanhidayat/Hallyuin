@@ -1,3 +1,5 @@
+
+
 const merchSlider = document.querySelector('.merch-slider');
 if (merchSlider) {
     for (const merch of merchandise) {
