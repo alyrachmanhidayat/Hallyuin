@@ -33,7 +33,7 @@ class Merch {
                 <img src="${this.image}" alt="merch-${this.id}">
             </a>
             <div class="merch-information">
-                <h3 class="merch-name"><a href="#">${this.name}</a></h3>
+                <h3 class="merch-name"><a href="merch.html?merch-id=${this.id}">${this.name}</a></h3>
                 <div class="merch-price">${this.price.toLocaleString('id-ID', {style: 'currency', currency: 'IDR'})}</div>
             </div>
         </article>
