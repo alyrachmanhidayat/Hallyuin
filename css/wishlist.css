@@ -16,6 +16,7 @@ main > article {
     padding: var(--space);
     box-shadow: var(--shadow);
     text-align: center;
+    min-height: 100vh;
 }
 
 
