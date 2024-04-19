@@ -237,7 +237,7 @@ footer {
     font-weight: bold;
 }
 
-.navbar a:hover {
+.navbar li > a:hover {
     text-shadow: 0 0 10px #ff523b;
     color: whitesmoke;
     transition: 200ms;
