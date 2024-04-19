@@ -170,13 +170,13 @@ header > nav > menu > li > a {
     font-size: 1em;
 } */
 
-header > nav > button.account {
+.account {
     border: none;
     background: none;
-    display: flex;
-    align-items: center;
-    font-size: 1rem;
-    gap: .5rem;
+}
+
+.account-content {
+    color: #555;
 }
 
 button[type="button"]:hover {
@@ -215,12 +215,6 @@ footer {
     text-align: center;
     padding: 3rem;
     background-color: var(--primary);
-}
-
-.animate:hover {
-    background-color: red;
-    transform: rotateY(360deg);
-    transition: 2s;
 }
 
 .material-symbols-outlined {
